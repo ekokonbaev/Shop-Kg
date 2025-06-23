@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спорт Кийимдери - Спортивная одежда</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>SPORT COMO</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">БАШКЫ БЕТ</a>
+                <a href="#products">ЭРКЕКТЕР</a>
+                <a href="#products">АЯЛДАР</a>
+                <a href="#categories">KIDS</a>
+                <a href="#contact">СПОРТ</a>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Издөө...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="user-actions">
+                    <a href="" class="user-action-btn"><i class="fas fa-user"></i></a>
+                    <a href="#" class="user-action-btn"><i class="fas fa-heart"></i></a>
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <a href="#home">ЭРКЕКТЕР</a>
+            <a href="#products">АЯЛДАР</a>
+            <a href="#categories">БАЛАЛАР</a>
+            <a href="#about">АКСЕССУАРЛАР</a>
+            <a href="#contact">СПОРТ</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-subtitle">ЖАҢЫ КОЛЛЕКЦИЯ</span>
+                <h2>СПОРТТУК СТИЛЬ</h2>
+                <p>Сиздин стилиңизди тааныштырыңыз</p>
+                <div class="hero-buttons">
+                    <button class="cta-button">САТЫП АЛУУ</button>
+                    <button class="cta-button secondary">КОЛЛЕКЦИЯ</button>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-scroll">
+                <span>Скролл</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section class="featured-categories">
+            <div class="category-card large">
+                <img src="assests/men3.jpg" alt="Эркектер">
+                <div class="category-content">
+                    <span class="category-subtitle">ЖАҢЫ КОЛЛЕКЦИЯ</span>
+                    <h3>ЭРКЕКТЕР</h3>
+                    <a href="#" class="category-link">Көрүү <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="assests/women2.png" alt="Аялдар">
+                    <div class="category-content">
+                        <span class="category-subtitle">ЖАҢЫ КОЛЛЕКЦИЯ</span>
+                        <h3>АЯЛДАР</h3>
+                        <a href="#" class="category-link">Көрүү <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="assests/children.jpeg" alt="KIDS">
+                    <div class="category-content">
+                        <span class="category-subtitle">ЖАҢЫ КОЛЛЕКЦИЯ</span>
+                        <h3>KIDS</h3>
+                        <a href="#" class="category-link">Көрүү <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="section-header">
+                <span class="section-subtitle">ПОПУЛЯРДУУ ТОВАРЛАР</span>
+                <h2>ЖАҢЫ КОЛЛЕКЦИЯ</h2>
+            </div>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">БААРЫ</button>
+                <button class="filter-btn" data-filter="new">ЖАҢЫ</button>
+                <button class="filter-btn" data-filter="popular">ПОПУЛЯРДУУ</button>
+                <button class="filter-btn" data-filter="sale">АКЦИЯ</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-card" data-category="new">
+                    <div class="product-badge">ЖАҢЫ</div>
+                    <div class="product-image">
+                        <img src="assests/images.jpg" alt="Спорттук футболка">
+                        <div class="product-actions">
+                            <button class="action-btn" data-tooltip="Избранное"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn" data-tooltip="Корзина"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn" data-tooltip="Быстрый просмотр"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>СПОРТТУК ФУТБОЛКА</h3>
+                        <div class="product-meta">
+                            <p class="price">1500 сом</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #fff; border: 1px solid #ddd;"></span>
+                            <span class="color-dot" style="background-color: #ff0000;"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="popular">
+                    <div class="product-badge sale">АКЦИЯ</div>
+                    <img src="assests/sports.jpg" alt="Шым">
+                    <div class="product-info">
+                        <h3>СПОРТТУК ШЫМ</h3>
+                        <div class="product-meta">
+                            <p class="price"><span class="old-price">3000 сом</span> 2500 сом</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">СЕБЕТКЕ КОШУУ</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="sale">
+                    <div class="product-badge">ЖАҢЫ</div>
+                    <img src="assests/cross.jpg" alt="Кроссовка">
+                    <div class="product-info">
+                        <h3>КРОССОВКА</h3>
+                        <div class="product-meta">
+                            <p class="price">3500 сом</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">СЕБЕТКЕ КОШУУ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">
+                <button class="load-more-btn">КОШУМЧА ТОВАРЛАР</button>
+            </div>
+        </section>
+
+        <section class="promo-banner">
+            <div class="promo-content">
+                <span class="promo-subtitle">АКЦИЯ</span>
+                <h2>50% ЧЕЙИН</h2>
+                <p>Жаңы коллекциядагы бардык товарларда</p>
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-number">02</span>
+                        <span class="countdown-label">Күн</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number">18</span>
+                        <span class="countdown-label">Саат</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number">45</span>
+                        <span class="countdown-label">Мүнөт</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number">60</span>
+                        <span class="countdown-label">Секунд</span>
+                    </div>
+                </div>
+                <button class="cta-button">САТЫП АЛУУ</button>
+            </div>
+            <div class="promo-overlay"></div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-truck"></i>
+                <h3>БЕКЕР ЖЕТКИРУУ</h3>
+                <p>1000 сомдон жогору соодалаганда</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-undo"></i>
+                <h3>КАЙТАРУУ УКУГУ</h3>
+                <p>14 күн ичинде</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-lock"></i>
+                <h3>КООПСУЗ ТӨЛӨМ</h3>
+                <p>100% коопсуздук</p>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>ЖАҢЫЛЫКТАР</h2>
+                <p>Жаңы коллекциялар жана акциялар жөнүндө биринчилерден билиңиз</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Сиздин email дарегиңиз">
+                    <button type="submit">ЖАЗЫЛУУ</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+           
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Товары будут добавляться динамически -->
+        </div>
+        
+    </div>
+
+    <div class="quick-view-modal">
+        <div class="modal-content">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <div class="modal-body">
+                <!-- Содержимое будет добавляться динамически -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>БАЙЛАНЫШ</h3>
+                <p><i class="fas fa-phone"></i> +996 555 123 456</p>
+                <p><i class="fas fa-envelope"></i> info@sportkiyim.kg</p>
+                <p><i class="fas fa-map-marker-alt"></i> Бишкек, Кыргызстан</p>
+            </div>
+            
+               
+            </div>
+            <div class="footer-section">
+                <h3>СОЦ. ТАРМАКТАР</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/?locale=ru_RU"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://web.telegram.org/"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.whatsapp.com/?lang=ru_RU"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 СПОРТ КИЙИМДЕРИ. БАРДЫК УКУКТАР КОРГОЛГОН.</p>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
